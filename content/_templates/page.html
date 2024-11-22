@@ -1,0 +1,155 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+
+  <title>$title</title>
+
+  <!-- ##### meta -->
+
+  <meta charset="utf-8"/>
+
+  <meta name="author" content="$author"/>
+  <meta name="keywords" content="$keywords"/>
+  <meta name="description" content="$description"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <!-- ##### icon -->
+  <link rel="icon" href="images/icon.gif" type="image/gif"/>
+
+  <!-- ##### third party links/scripts -->
+
+  <!-- ### Bootstrap 5 CSS framework -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+
+  <!-- ### Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+  <!-- ### highlight.js -->
+
+  <!-- minified devibeans CSS theme for highlight.js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/devibeans.min.css"/>
+
+  <!-- highlight.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+
+  <!-- syntax highlighting activation -->
+  <script>hljs.highlightAll();</script>
+
+  <!-- ##### custom style -->
+  <style>
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight:bold;
+}
+
+.icon20px {
+  font-size:20px;
+}
+
+ol, ul {
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+ul.navbar-nav {
+  padding:0px;
+}
+
+pre {
+  border:1px solid white;
+}
+
+code {
+  color: rgb(25, 25, 25);
+  background-color: rgb(220, 220, 235);
+  border-radius:3px;
+}
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- header -->
+
+  <header>
+    <a href="/">
+      <img class="m-2" style="height:30px" src="images/kennedy_logo.svg" alt="Kennedy Richard's logo"/>
+    </a>
+    <p class="ms-2">Kennedy Richard's website</p>
+  </header>
+
+
+  <!-- Navigation bar -->
+
+    <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+
+      <div class="container-fluid">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+              <span class="navbar-toggler-icon"/>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mynavbar">
+
+              <ul class="navbar-nav me-auto">
+
+
+                  <li class="nav-item">
+                    <a class="nav-link active" href="/">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About</a>
+                  </li>
+
+              </ul>
+
+              <form class="d-flex" method="get" action="https://www.google.com/search">
+
+                  <input type="hidden" name="sitesearch" value="kennedyrichard.com"/>
+                  <input type="text" name="q" class="form-control me-2" placeholder="Search"/>
+                  <button class="btn btn-primary" type="submit">Search</button>
+
+              </form>
+
+          </div>
+
+      </div>
+
+    </nav>
+
+
+  <!-- Page content -->
+
+  <main class="container my-3">
+$content
+  </main>
+
+
+  <!-- Footer -->
+
+    <footer class="container-fluid">
+
+  <div class="d-flex flex-wrap">
+
+      <div class="m-1"><span>Useful links:</span></div>
+      <a class="m-1" href="https://github.com/KennedyRichard">Github</a>
+      <a class="m-1" href="https://bsky.app/profile/kennedyrichard.com">BlueSky</a>
+      <a class="m-1" rel="me" href="https://fosstodon.org/@KennedyRichard">Mastodon</a>
+      <a class="m-1" href="https://x.com/KennedyRichard">Twitter/X</a>
+      <a class="m-1" href="mailto:kennedy@kennedyrichard.com">Email</a>
+
+  </div>
+
+  <p>© 2022-present Kennedy Richard Silva Guerra</p>
+
+</footer>
+
+
+<!-- bootstrap 5 bundled js+popper-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

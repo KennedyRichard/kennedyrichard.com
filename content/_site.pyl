@@ -1,0 +1,12 @@
+{
+  'index.html': {
+    'title': 'Home | kennedyrichard.com',
+    'keywords': 'home, landing page, Kennedy Richard, Kennedy Richard Silva Guerra, projects, programming, personal website, Python, Python programming language',
+    'description': "Kennedy Richard's projects and content.",
+  },
+  'about.html': {
+    'title': 'About | kennedyrichard.com',
+    'keywords': 'about, about me, Kennedy Richard, Kennedy Richard Silva Guerra, projects, programming, personal website, Python, Python programming language',
+    'description': 'Succinct description of myself (Kennedy).',
+  },
+}
