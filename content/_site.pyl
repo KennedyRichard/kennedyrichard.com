@@ -9,4 +9,10 @@
     'keywords': 'about, about me, Kennedy Richard, Kennedy Richard Silva Guerra, projects, programming, personal website, Python, Python programming language',
     'description': 'Succinct description of myself (Kennedy).',
   },
+  'links.html': {
+    'title': 'My Links | kennedyrichard.com',
+    'keywords': 'my links, links, Kennedy Richard, Kennedy Richard Silva Guerra, projects, programming, personal website, Python, Python programming language',
+    'description': 'Links related to me (Kennedy) and my activities.',
+  },
+  'links': '../links.html',
 }
