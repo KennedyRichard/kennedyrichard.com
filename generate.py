@@ -26,10 +26,10 @@ from ast import literal_eval
 
 HERE = Path(__file__).parent
 sourcepath = HERE / 'content'
-targetpath = HERE / 'output'
+targetpath = HERE / '_output'
 
 
-### make sure 'output' folder exists and is empty
+### make sure '_output' folder exists and is empty
 
 if targetpath.is_dir():
     rmtree(str(targetpath))

@@ -24,7 +24,7 @@ else:
 
     hash_html = f"hash: <b>{hash_head}</b>{hash_tail}"
 
-    output_dir = Path(__file__).parent / 'output'
+    output_dir = Path(__file__).parent / '_output'
 
     html_pages = output_dir.glob('**/*.html')
     
