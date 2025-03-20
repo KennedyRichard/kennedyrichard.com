@@ -1,6 +1,11 @@
-<h1>Welcome</h1>
+authors: Kennedy Richard S. Guerra
+keywords: home
+          landing page
+description: Kennedy Richard's projects and content
 
-<p>Hello, Kennedy here! Here's my stuff:</p>
+# Welcome
+
+Hello, Kennedy here! Here's my stuff:
 
 <section class="d-flex flex-wrap bg-light">
 

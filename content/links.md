@@ -1,8 +1,13 @@
-<h1>My links</h1>
+authors: Kennedy Richard S. Guerra
+keywords: my links
+          links
+description: Links related to me (Kennedy) and my stuff
 
-<p>Links related to me (Kennedy) and my activities.</p>
+# My links
 
-<h2>Personal links</h2>
+Links related to me (Kennedy) and my activities.
+
+## Personal links
 
 <div class="list-group">
 
@@ -15,9 +20,9 @@
 
 </div>
 
-<h2>Indie Smiths project</h2>
+## Indie Smiths project
 
-<p>My open-source projects.</p>
+My open-source projects.
 
 <div class="list-group">
 
@@ -28,9 +33,9 @@
 
 </div>
 
-<h2>Nodezator project</h2>
+## Nodezator project
 
-<p>Node editor. One of the child projects of the Indie Smiths project.</p>
+Node editor. One of the child projects of the Indie Smiths project.
 
 <div class="list-group">
 
@@ -39,9 +44,9 @@
 
 </div>
 
-<h2>Bionic Blue project</h2>
+## Bionic Blue project
 
-<p>2D platformer game. One of the child projects of the Indie Smiths project.</p>
+2D platformer game. One of the child projects of the Indie Smiths project.
 
 <div class="list-group">
 
