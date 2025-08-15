@@ -23,7 +23,7 @@ Hello, Kennedy here! Here's my stuff:
       <img class="card-img-top" src="https://i.imgur.com/iSzS17E.png" alt="Small nodezator screenshot" />
       <div class="card-body">
         <h4 class="card-title">Nodezator Desktop app</h4>
-        <p class="card-text">The <b>Nodezator desktop app</b> (<a href="https://nodezator.com">website</a> | <a href="https://github.com/IndieSmiths/nodezator">GitHub repo</a>) is a multi-purpose visual node editor for the Python programming language. It is a subproject of the Indie Python project, but has dedicated channels/content because of its many applications as a tool.</p>
+        <p class="card-text">The <b>Nodezator desktop app</b> (<a href="https://nodezator.com">website</a> | <a href="https://github.com/IndieSmiths/nodezator">GitHub repo</a>) is a multi-purpose/generalist visual node editor for the Python programming language. It is a subproject of the Indie Smiths project, but has dedicated channels/content because of its many applications as a tool.</p>
       </div>
     </div>
 
