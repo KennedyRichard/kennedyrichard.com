@@ -1,0 +1,15 @@
+<script src="https://giscus.app/client.js"
+        data-repo="KennedyRichard/kennedyrichard.com"
+        data-repo-id="R_kgDONTQEgw"
+        data-category="Embedded discussions"
+        data-category-id="DIC_kwDONTQEg84Cx4jP"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

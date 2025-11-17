@@ -92,6 +92,14 @@ redirect_template = (
     )
 )
 
+### comment related module-level values
+
+COMMENT_SCRIPT = (
+    sourcepath / '_scripts' / 'giscus.txt'
+).read_text(encoding='utf-8')
+
+INCLUDE_COMMENT_SECTION_DEFAULT = ('False',)
+
 
 
 def main():
@@ -219,11 +227,25 @@ def main():
 
                 post_html = insert_meta_into_post(post_meta, post_html)
 
+                include_comment_section = (
+
+                    literal_eval(
+                        post_meta.get(
+                            'include-comment-section',
+                            INCLUDE_COMMENT_SECTION_DEFAULT,
+                        )[0]
+                    )
+
+                )
+
                 post_data = {
 
                     'category_title': category_title,
                     'title': post_title,
                     'article': post_html,
+                    'comment_script': (
+                        COMMENT_SCRIPT if include_comment_section else ''
+                    ),
 
                 }
 
