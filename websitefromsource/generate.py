@@ -148,6 +148,14 @@ def generate_site_for_locale(locale_path):
     _language, _sep, _country = locale_dir_name.partition('-')
     lang = _language + _sep + _country.upper()
 
+    ### also alias the _language part for usage in the comment script
+    ### (because for some reason it only works when solely the language
+    ### part of the locale is given as the "lang" attribute, instead of
+    ### the full locale; that is, for instance, only "en", not "en-US")
+    ###
+    ### so we only use that part
+    comment_script_lang = _language
+
     ### define target path for locale
 
     targetpath = (
@@ -249,6 +257,12 @@ def generate_site_for_locale(locale_path):
             }
 
         )
+    )
+
+    ### get content for comment script
+
+    comment_script_content = (
+        comment_script_template.substitute(lang=comment_script_lang)
     )
 
     ### text for posts and post-related content
@@ -440,7 +454,7 @@ def generate_site_for_locale(locale_path):
 
                     'comment_script': (
 
-                        comment_script_template.substitute(lang=lang)
+                        comment_script_content
                         if include_comment_section
 
                         else ''
