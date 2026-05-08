@@ -3,7 +3,7 @@ keywords: about
           about me
 description: Succint description of myself (Kennedy)
 
-# About
+# About me
 
 - Full name: Kennedy Richard Silva Guerra;
 - born in 1990 in Recife, Brazil, where I still live;

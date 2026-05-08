@@ -1,0 +1,169 @@
+
+translated_by
+
+    en-us Translated by
+    pt-br Traduzido por
+
+page
+
+    lang_keywords
+
+        en-us personal website, projects
+        pt-br website pessoal, projetos
+
+    header_and_nav
+
+        header_text
+
+            en-us Kennedy R. S. Guerra's website
+            pt-br Site de Kennedy R. S. Guerra
+
+        logo_alt
+
+            en-us Kennedy R. S. Guerra's logo symbol
+            pt-br Logo (isotipo) de Kennedy R. S. Guerra
+
+        home
+
+            en-us Home
+            pt-br Início
+
+        about
+
+            en-us About
+            pt-br Sobre
+
+        about_link
+
+            en-us about
+            pt-br sobre
+
+        links
+
+            en-us Links
+            pt-br Links
+
+        links_link
+
+            en-us links
+            pt-br links
+
+        articles
+
+            en-us Articles
+            pt-br Artigos
+
+        articles_link
+
+            en-us articles
+            pt-br artigos
+
+        site_search_placeholder
+
+            en-us Search
+            pt-br Pesquise
+
+    footer
+
+        useful_links
+
+            en-us Useful links
+            pt-br Links úteis
+
+        present
+
+            en-us present
+            pt-br presente
+
+        website_source
+
+            en-us Website's source
+            pt-br Código-fonte do site
+
+    filenames
+
+        about
+
+            en-us about
+            pt-br sobre
+
+        links
+
+            en-us links
+            pt-br links
+
+
+post
+
+    date_format
+
+        en-us date format
+        pt-br formato de datas
+
+    year_month_day
+
+        en-us year-month-day
+        pt-br ano-mês-dia
+
+    metadata
+
+        written_by
+
+            en-us Written by
+            pt-br Escrito por
+
+        created_on
+
+            en-us Created on
+            pt-br Criado em
+
+        last_updated_on
+
+            en-us Last updated on
+            pt-br Atualizado em
+
+
+    category_info
+
+        articles
+
+            target_folder_name
+
+                en-us articles
+                pt-br artigos
+
+            title
+
+                en-us Articles
+                pt-br Artigos
+
+            description
+
+                en-us Articles on subjects that interest me or related to my activities
+                pt-br Artigos sobre assuntos que me interessam ou relacionados às minhas atividades
+
+            keywords
+
+                en-us articles, interests, activities
+                pt-br artigos, interesses, atividades
+
+            filenames
+
+                python_doctests_markdown
+
+                    en-us python-doctests-markdown
+                    pt-br python-doctests-markdown
+
+
+
+redirect_page
+
+    title
+
+        en-us Redirecting to another page
+        pt-br Redirecionando para outra página
+
+    message
+
+        en-us If you weren't redirected automatically, click this link to go to the intended page
+        pt-br Se você não foi redirecionado automaticamente, clique neste link para seguir para a página alvo

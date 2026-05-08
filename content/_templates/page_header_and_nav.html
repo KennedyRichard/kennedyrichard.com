@@ -1,0 +1,57 @@
+
+  <!-- header -->
+
+  <header>
+    <a href="$home_link">
+      <img class="m-2" style="height:30px" src="/images/kennedy_logo.svg" alt="$logo_alt"/>
+    </a>
+    <p class="ms-2">$header_text</p>
+  </header>
+
+
+  <!-- Navigation bar -->
+
+  <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+
+    <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"/>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mynavbar">
+
+            <ul class="navbar-nav me-auto">
+
+
+                <li class="nav-item">
+                  <a class="nav-link active" href="$home_link">$home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" href="$about_link">$about</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" href="$links_link">$links</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" href="$articles_link">$articles</a>
+                </li>
+
+            </ul>
+
+            <form class="d-flex" method="get" action="https://www.google.com/search">
+
+                <input type="hidden" name="sitesearch" value="$site_search_url"/>
+                <input type="text" name="q" class="form-control me-2" placeholder="$site_search_placeholder" />
+                <button class="btn btn-primary" type="submit">$site_search_placeholder</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+  </nav>

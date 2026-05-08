@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html><html lang="$lang">
 
 <head>
 
@@ -11,7 +11,7 @@
 $authors
 
   <meta name="description" content="$description"/>
-  <meta name="keywords" content="$keywords, Kennedy Richard Silva Guerra, personal website, projects"/>
+  <meta name="keywords" content="$keywords, Kennedy Richard Silva Guerra, $lang_keywords"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
   <!-- ##### icon -->
@@ -80,63 +80,8 @@ code {
 
 <body>
 
-  <!-- header -->
-
-  <header>
-    <a href="/">
-      <img class="m-2" style="height:30px" src="/images/kennedy_logo.svg" alt="Kennedy Richard's logo"/>
-    </a>
-    <p class="ms-2">Kennedy Richard's website</p>
-  </header>
-
-
-  <!-- Navigation bar -->
-
-  <nav class="navbar navbar-expand-sm bg-success navbar-dark">
-
-    <div class="container-fluid">
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-            <span class="navbar-toggler-icon"/>
-        </button>
-
-        <div class="collapse navbar-collapse" id="mynavbar">
-
-            <ul class="navbar-nav me-auto">
-
-
-                <li class="nav-item">
-                  <a class="nav-link active" href="/">Home</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link active" href="/about.html">About</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link active" href="/links.html">Links</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link active" href="/articles">Articles</a>
-                </li>
-
-            </ul>
-
-            <form class="d-flex" method="get" action="https://www.google.com/search">
-
-                <input type="hidden" name="sitesearch" value="kennedyrichard.com"/>
-                <input type="text" name="q" class="form-control me-2" placeholder="Search"/>
-                <button class="btn btn-primary" type="submit">Search</button>
-
-            </form>
-
-        </div>
-
-    </div>
-
-  </nav>
-
+  <!-- Page's header and navigation bar -->
+  $header_and_nav
 
   <!-- Page content -->
 
@@ -146,23 +91,8 @@ $content
 
 
   <!-- Footer -->
+  $footer
 
-  <footer class="container-fluid">
-
-  <div class="d-flex flex-wrap">
-
-      <div class="m-1"><span>Useful links:</span></div>
-      <a class="m-1" href="https://github.com/KennedyRichard">Github</a>
-      <a class="m-1" href="https://bsky.app/profile/kennedyrichard.com">BlueSky</a>
-      <a class="m-1" rel="me" href="https://fosstodon.org/@KennedyRichard">Mastodon</a>
-      <a class="m-1" href="https://x.com/KennedyRichard">Twitter/X</a>
-      <a class="m-1" href="mailto:kennedy@kennedyrichard.com">Email</a>
-
-  </div>
-
-<p>© 2022-present Kennedy Richard Silva Guerra</p>
-<a href="https://github.com/KennedyRichard/kennedyrichard.com">Website's source</a>
-  </footer>
 <br />
 
 
