@@ -3,7 +3,7 @@
 
 This is the custom, simple static website generator to generate the website for https://kennedyrichard.com.
 
-It turns .md files (markdown) into .html files representing both static pages or chronological content (articles, blog posts, news).
+It turns .md files (markdown) into .html files representing both static pages and/or chronological content (articles, blog posts, news).
 
 You can enjoy the simplicity and practicality of markdown without losing access to HTML elements and their custom attributes and interface with CSS and Javascript that bring even more power and style to your .html documents. Just include the HTML content (tags) you want in your .md files and they'll be copied as-is in the generated .html files.
 
@@ -15,15 +15,15 @@ pip install markdown
 
 Depending on your system, you might have to replace `pip` by `pip3`.
 
-Then, just execute the generate.py script like this in this folder:
+Then, just execute the run.py script like this in this folder:
 
 ```
-python3 generate.py
+python3 run.py
 ```
 
 Depending on your system, you might have to replace `python3` by `python`.
 
-It will read contents from the `content` folder and create a new sibling `_output` folder with the generated website. If the `_output` folder already exists at the time of the call, there's no problem: it is removed completely and then generated.
+It will read contents from the `content` folder and create a new sibling `_output` folder with the generated website. If the `_output` folder already exists at the time of the call, there's no problem: it is removed completely before being generated anew.
 
 Once you are satisfied with the changes and commit them, you can execute...
 
