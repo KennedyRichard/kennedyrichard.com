@@ -48,15 +48,15 @@ page
             en-us links
             pt-br links
 
-        articles
+        essays
 
-            en-us Articles
-            pt-br Artigos
+            en-us Essays
+            pt-br Ensaios
 
-        articles_link
+        essays_link
 
-            en-us articles
-            pt-br artigos
+            en-us essays
+            pt-br ensaios
 
         site_search_placeholder
 
@@ -125,27 +125,27 @@ post
 
     category_info
 
-        articles
+        essays
 
             target_folder_name
 
-                en-us articles
-                pt-br artigos
+                en-us essays
+                pt-br ensaios
 
             title
 
-                en-us Articles
-                pt-br Artigos
+                en-us Essays
+                pt-br Ensaios
 
             description
 
-                en-us Articles on subjects that interest me or related to my activities
-                pt-br Artigos sobre assuntos que me interessam ou relacionados às minhas atividades
+                en-us Essays on subjects that interest me or related to my activities
+                pt-br Ensaios sobre assuntos que me interessam ou relacionados às minhas atividades
 
             keywords
 
-                en-us articles, interests, activities
-                pt-br artigos, interesses, atividades
+                en-us essays, interests, activities
+                pt-br ensaios, interesses, atividades
 
             filenames
 

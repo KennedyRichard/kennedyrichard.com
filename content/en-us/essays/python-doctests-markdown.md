@@ -4,7 +4,7 @@ keywords: Python
           Python doctests
           doctests
           markdown
-description: Article on the advantages of using markdown files as Python doctests
+description: Essay on the advantages of using markdown files as Python doctests
 publish-date: 2025-11-17
 last-updated: 2026-05-08
 include-comment-section: True
@@ -94,5 +94,5 @@ This can make your doctests even more visually rich and informative.
 
 As explored here, any plain text file can be used as a Python doctest. Given that possibility, aren't you wondering which other text file formats could be useful as well? Which new possibilities could they unlock?
 
-If you found this article interesting and want to help support my work as an open-source maintainer, you can find me on [Patreon](https://patreon.com/KennedyRichard), GitHub [sponsors](https://github.com/sponsors/KennedyRichard) and other websites like those that you can find on [https://indiesmiths.com/donate](https://indiesmiths.com/donate).
+If you found this essay interesting and want to help support my work as an open-source maintainer, you can find me on [Patreon](https://patreon.com/KennedyRichard), GitHub [sponsors](https://github.com/sponsors/KennedyRichard) and other websites like those that you can find on [https://indiesmiths.com/donate](https://indiesmiths.com/donate).
 

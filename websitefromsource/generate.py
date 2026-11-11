@@ -213,13 +213,13 @@ def generate_site_for_locale(locale_path):
                     else f'{locale_dir_name}/'
                 ) + f'{t.links_link}.html',
 
-                'articles': t.articles,
+                'essays': t.essays,
 
-                'articles_link': '/' + (
+                'essays_link': '/' + (
                     ''
                     if locale_dir_name == 'en-us'
                     else f'{locale_dir_name}/'
-                ) + f'{t.articles_link}',
+                ) + f'{t.essays_link}',
 
                 'site_search_placeholder': t.site_search_placeholder,
 
